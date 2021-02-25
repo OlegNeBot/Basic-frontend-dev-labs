@@ -109,11 +109,11 @@ ____________
 
 Задание по 4 варианту представлено на рисунках 1 и 2.
 
-<p align=center><img src=./pictures/Z1v4.png></p>
+<p align=center><img src=./lab1./pictures/Z1v4.png></p>
 
 <p align = center>Рисунок 1 - задание на реализацию web-страницы с фреймом
 
-<p align=center><img src=./pictures/Z1t4.png></p>
+<p align=center><img src=./lab1./pictures/Z1t4.png></p>
 
 <p align = center>Рисунок 2 - задание для фрейма таблицы
 
@@ -122,7 +122,7 @@ ____________
 <p align = center>3
 
 _________
-<p align=center><img src=./pictures/Z1index4.png></p>
+<p align=center><img src=./lab1./pictures/Z1index4.png></p>
 
 <p align = center>Рисунок 3 - реализация страницы на html-4
 
@@ -139,7 +139,7 @@ _________
 
 На рисунке 5 представлена HTML-страница index.html открытая в браузере. Листинг страницы index.html представлен в приложении Б.
 
-<p align=center><img src=./pictures/Z2index.png></p>
+<p align=center><img src=./lab1./pictures/Z2index.png></p>
 
 <p align = center>Рисунок 4 – web-страница index.html
 
