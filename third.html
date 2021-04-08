@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Голованов Олег Алексеевич</title>
+    <link href="css.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="/jscripts.js"></script>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet"/>
+    
+  </head>
+  <body>
+    <header class="flex mx-auto justify-between container">
+        <img class="flex-none self-center" src="./pictures/one.png"  alt="">
+        <div class="block lg:hidden self-center pr-4 m-12">
+				  <button id="nav-toggle" class="flex items-center px-3 py-2 text-gray-500 border rounded border-gray-600 hover:text-gray-900 hover:border-green-500 focus:outline-none appearance-none">
+					  <svg class="fill-current h-3 w-3">
+						  <title>Menue</title>
+						  <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+					  </svg>
+				  </button>
+        </div>
+        <div class="w-full flex-grow lg:flex lg:w-auto hidden lg:items-center lg:block mt-2 lg:mt-0 bg-gray-100 md:bg-transparent z-20" id="nav-content">
+          <ul class="list-reset lg:flex justify-end flex-1 items-center ">
+            <li class="mr-3">
+            <p class="text-red-400 font-bold py-2 px-4 ">Home</p> 
+            </li>
+            <li class="mr-3">
+              <p class="font-bold">Product</p>
+            </li>
+            <li class="mr-3">
+              <p class="font-bold">Faq</p>
+            </li>
+            <li class="mr-3">
+              <p class="inline-block font-bold">Contact</p>
+            </li>
+          </ul>
+        </div>
+    </header>
+    <main>
+        <div  class=" mx-auto container logo">
+          <section class=" mx-auto container px-8">
+            <p class = "text-center font-bold lg:text-white text-2xl m-4" >Food app</p>  
+            <p class = "text-center font-bold lg:text-white text-5xl" >Why stay hungry when you can order form Bella Onojie</p>
+            <p class = "text-center font-bold lg:text-white text-2xl" >Download the bella onoje's food app now on</p>
+            <section class="text-center px-3 lg:px-0">
+              <button class=" mt-4 bg-red-400 rounded-full text-white py-3 px-20 focus:outline-none" onclick="button()"> Playstore</button>
+              <button class=" mt-4 border-2 border-red-400 lg:border-white rounded-full lg:text-white text-red-400 py-3 px-20 focus:outline-none" onclick="button()"> App store</button>
+            </section>
+          </section>
+        </div>
+        <section class=" ">
+            <img class="mx-auto" src="./pictures/two.png"  alt="">
+            <hr class = "lg:flex hidden">
+        </section>
+          <p class = "text-center font-bold lg:text-5xl text-2xl mt-8 " >How the app works</p>
+          <hr class = "lg:hidden mt-8 " >
+        <div class="container mx-auto px-12 mt-16 ">
+          <div class="md:grid grid-cols-10">
+            <section class="col-span-5"> 
+              <img class="lg:flex lg:items-center lg:w-auto hidden place-items-center" src="./pictures/three.png"  alt="">
+            </section>
+            <div class="col-span-4 self-center">
+              <p class = "font-bold mx-auto text-red-400yy colors-danger text-red-400 text-2xl text-left" >Create an account</p>
+              <p class = "font-bold mx-auto text-4xl text-left" >Create/login to an existing account to get started</p>
+              <p class = "mx-auto text-2xl text-left" >An account is created with your email and a desired password</p>
+              </div>
+              <div class="col-span-5"> 
+                <img class="place-items-center lg:hidden text-center" src="./pictures/three.png"  alt="">
+              </div>
+          </div>
+        </div>
+        <div class="container mx-auto px-12">
+            <div class="md:grid grid-cols-10">
+              <div class="col-span-4 self-center">
+                <p class = "text-red-400yy colors-danger text-red-400 text-2xl text-left font-bold mx-auto" >Explore varieties</p>
+                <p class = "text-4xl text-left font-bold mx-auto" >Sop for your favorites meals as e dey hot.</p>
+                <p class = "mx-auto text-2xl text-left" >Shop for your favorite meals or drinks and enjoy while doing it.</p>    
+              </div>
+              <div class="col-span-5 self-center"> 
+                <img class="place-items-center" src="./pictures/four.png"  alt="">
+              </div>
+            </div>
+          </div>
+        <div class="container mx-auto px-12">
+          <div class="md:grid grid-cols-10">
+            <div class="col-span-5"> 
+              <img class="lg:flex lg:items-center lg:w-auto hidden place-items-center" src="./pictures/five.png"  alt="">
+            </div>
+            <div class="col-span-4 self-center">
+              <p class = "text-red-400yy colors-danger text-red-400 text-2xl text-left font-bold mx-auto" >Checkout</p>
+              <p class = "text-4xl text-left font-bold mx-auto" >When you done check out and get it delivered.</p>
+              <p class = "mx-auto text-2xl text-left" >When you done check out and get it delivered with esase.</p>
+              </div>
+              <div class="col-span-5"> 
+                <img class="lg:hidden text-center place-items-center" src="./pictures/five.png"  alt="">
+              </div>
+          </div>
+        </div>
+          <div class="mx-auto container foot" >
+            <section class="mx-auto container px-8 ">
+              <p class = "font-bold text-4xl m-8 text-white text-center" >Download the app now on</p>
+              <p class = "text-2xl text-white text-center" >Available on your favorite store. Start your premium experience now</p>
+           </section>
+           <div class="text-center px-3 lg:px-0">
+            <button class="bg-red-400 text-white rounded-lg py-3 px-8 mt-16 focus:outline-none" onclick="button()"> Playmarket</button>
+            <button class="text-white rounded-lg py-3 px-16 mt-16 focus:outline-none border-2" onclick="button()"> Appstore</button>
+          </div>
+          </div>
+    </main>
+    <footer class = "m-4" >
+        <div class="flex mx-auto container px-8 justify-between ">
+            <img class="lg:flex lg:items-center lg:w-auto hidden" src="./pictures/one.png"  alt="">
+            <img class="mx-auto self-center" src="./pictures/six.png"  alt="">
+            <p class = "  lg:flex lg:items-center lg:w-auto hidden" >Copyright 2020 Bella Onojie.com</p>
+        </div>
+        <p class = " lg:hidden text-center" >Copyright 2020 Bella Onojie.com</p> 
+    </footer>
+  </body>
+</html>
+
