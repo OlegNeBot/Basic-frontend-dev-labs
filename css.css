@@ -1,0 +1,115 @@
+.text-orange {
+    color: #F2994A;
+}
+.text-gray {
+    color: rgb(250, 74, 12);
+}
+.text-cyan {
+    color: rgb(250, 74, 12);
+}
+
+.foot_logo  {
+    background: url('pictures/polosa.png'); 
+}
+@media (min-width: 768px) {
+    .foot_logo {
+        background: url('pictures/polosa.png'); 
+  }
+}
+.text-cyan-u{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 50px;
+    color: #99EFD0;}
+.text-orange-u{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 50px;
+    color: #F2994A;}   
+.text-gray-l{
+    font-size: 18px;
+    line-height: 22px;
+    color: #8476AA;}
+.text-button{
+    width: 130px;
+    height: 40px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #F2994A;
+    border-radius: 0.25rem;
+}
+    
+.text-button-orange{
+    width: 130px;
+    height: 40px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #F2994A;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    border-color: #F2994A;
+    border-width: 1px;
+    border-radius: 0.25rem;
+}
+body{
+    background: linear-gradient(222.26deg, #3B1D60 1.22%, #040D3E 106.28%);
+}
+.l7_bg {
+
+background: url('pictures/cntr.png');
+ }
+.tf_no  {
+    display: none; 
+}
+@media (min-width: 768px) {
+    .tf_no {
+    display: block;
+    flex: none;
+  }
+}
+.tf_flex  {
+    display: flex; 
+}
+@media (min-width: 768px) {
+ .tf_flex {
+    display: none;
+  }
+}
+#p_prldr{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right:0;
+    bottom:0;
+    background: #9A12B3;
+    z-index: 30;}
+     
+    .contpre small{font-size:25px;}
+     
+    .contpre{
+    width: 250px;
+    height: 100px;
+    position: absolute;
+    left: 50%;top: 48%;
+    margin-left:-125px;
+    margin-top:-75px;
+    color:#3B1D60;
+    font-size:40px;
+    letter-spacing:-2px;
+    text-align:center;
+    line-height:35px;}
+     
+    #p_prldr .svg_anm {
+    position: absolute;
+    width: 41px;
+    height: 41px;
+    background: url(pictures/oval.svg) center center no-repeat;
+    background-size:41px;    
+    margin: -16px 0 0 -16px;}
